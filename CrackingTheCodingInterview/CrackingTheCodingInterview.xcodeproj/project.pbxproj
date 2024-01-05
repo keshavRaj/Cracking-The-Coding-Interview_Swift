@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26400F542B48697F00EC29FD /* ArrayAndStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26400F532B48697F00EC29FD /* ArrayAndStrings.swift */; };
+		26400F572B486BC500EC29FD /* ArrayAndStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26400F562B486BC500EC29FD /* ArrayAndStringsTest.swift */; };
 		26CE3F922B45BB1F008B7070 /* CrackingTheCodingInterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE3F912B45BB1F008B7070 /* CrackingTheCodingInterviewApp.swift */; };
 		26CE3F942B45BB1F008B7070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE3F932B45BB1F008B7070 /* ContentView.swift */; };
 		26CE3F962B45BB23008B7070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CE3F952B45BB23008B7070 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26400F532B48697F00EC29FD /* ArrayAndStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayAndStrings.swift; sourceTree = "<group>"; };
+		26400F562B486BC500EC29FD /* ArrayAndStringsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayAndStringsTest.swift; sourceTree = "<group>"; };
 		26CE3F8E2B45BB1F008B7070 /* CrackingTheCodingInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrackingTheCodingInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CE3F912B45BB1F008B7070 /* CrackingTheCodingInterviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackingTheCodingInterviewApp.swift; sourceTree = "<group>"; };
 		26CE3F932B45BB1F008B7070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26400F522B4868F900EC29FD /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				26400F532B48697F00EC29FD /* ArrayAndStrings.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		26400F552B486B9800EC29FD /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				26400F562B486BC500EC29FD /* ArrayAndStringsTest.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
 		26CE3F852B45BB1F008B7070 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +115,7 @@
 		26CE3F902B45BB1F008B7070 /* CrackingTheCodingInterview */ = {
 			isa = PBXGroup;
 			children = (
+				26400F522B4868F900EC29FD /* Questions */,
 				26CE3F912B45BB1F008B7070 /* CrackingTheCodingInterviewApp.swift */,
 				26CE3F932B45BB1F008B7070 /* ContentView.swift */,
 				26CE3F952B45BB23008B7070 /* Assets.xcassets */,
@@ -115,6 +136,7 @@
 		26CE3FA22B45BB23008B7070 /* CrackingTheCodingInterviewTests */ = {
 			isa = PBXGroup;
 			children = (
+				26400F552B486B9800EC29FD /* Questions */,
 				26CE3FA32B45BB23008B7070 /* CrackingTheCodingInterviewTests.swift */,
 			);
 			path = CrackingTheCodingInterviewTests;
@@ -259,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26400F542B48697F00EC29FD /* ArrayAndStrings.swift in Sources */,
 				26CE3F942B45BB1F008B7070 /* ContentView.swift in Sources */,
 				26CE3F922B45BB1F008B7070 /* CrackingTheCodingInterviewApp.swift in Sources */,
 			);
@@ -268,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26400F572B486BC500EC29FD /* ArrayAndStringsTest.swift in Sources */,
 				26CE3FA42B45BB23008B7070 /* CrackingTheCodingInterviewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
